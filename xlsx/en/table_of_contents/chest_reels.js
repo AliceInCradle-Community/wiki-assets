@@ -2,7 +2,7 @@
 window.addEventListener('load', (/*event*/) => {
   // 此处可将之替换成想用的url和渲染目标元素的Id
   let url ="https://wiki-assets.aliceincradle.org/xlsx/en/table_of_contents/chest_reels.xlsx";
-  let elementId = "result01";
+  let elementId = "chest_reels_en";
   loadRemoteFile(url,elementId);
   // 用户上传的文件，元素id为input
   const inputElement = document.getElementById("input");
