@@ -95,9 +95,9 @@ function mergeTable(workbook01) {
   });
 }
 
-function loadRemoteFile(url) {
-  readworkbook01FromRemoteFile(url, function (workbook01) {
-    readworkbook01(workbook01);
-  });
+class XlsxRender01 extends HTMLElement {
+  constructor() {
+    super();
+    loadRemoteFile("https://wiki-assets.aliceincradle.org/xlsx/en/table_of_contents/chest_reels.xlsx");
+  }
 }
-var url = "https://wiki-assets.aliceincradle.org/xlsx/en/table_of_contents/chest_reels.xlsx"
